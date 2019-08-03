@@ -1,0 +1,24 @@
+{
+  "name": "OAuth2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js --exec babel-node --presets babel-preset-env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/pierroberto/OAuth2.git",
+  "author": "pierroberto <pierroberto.lucisano@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.19.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "express": "^4.17.1",
+    "node-oauth2-server": "^2.4.0",
+    "nodemon": "^1.19.1"
+  }
+}
